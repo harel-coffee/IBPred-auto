@@ -1,0 +1,654 @@
+dimension,auc_mean,auc_std,estimator
+1,0.7426041666666666,0.07626678208704424,"RandomForestClassifier(ccp_alpha=0.026376906675229458, max_depth=86,
+                       max_leaf_nodes=50, min_samples_split=17,
+                       n_estimators=955, random_state=42)"
+2,0.7296241830065359,0.08107350118903779,"RandomForestClassifier(ccp_alpha=0.02484591051269122, criterion='entropy',
+                       max_depth=9, max_leaf_nodes=107, min_samples_split=27,
+                       n_estimators=496, random_state=42)"
+3,0.7417238562091503,0.0857653830652771,"RandomForestClassifier(ccp_alpha=0.06134691334719789, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=146, min_samples_split=30,
+                       n_estimators=1000, random_state=42)"
+4,0.8014174836601307,0.06624896691182033,"RandomForestClassifier(ccp_alpha=2.15954947247527e-08, criterion='entropy',
+                       max_depth=51, max_leaf_nodes=139, min_samples_leaf=10,
+                       min_samples_split=4, n_estimators=226, random_state=42)"
+5,0.8018750000000001,0.0633021816166663,"RandomForestClassifier(ccp_alpha=0.022514116640651588, criterion='entropy',
+                       max_depth=5, max_leaf_nodes=82, min_samples_leaf=10,
+                       min_samples_split=23, n_estimators=1000,
+                       random_state=42)"
+6,0.807079248366013,0.07261173458578712,"RandomForestClassifier(ccp_alpha=0.02365285424338075, max_depth=49,
+                       max_leaf_nodes=193, min_samples_leaf=9,
+                       min_samples_split=4, n_estimators=19, random_state=42)"
+7,0.8053145424836601,0.07283020507325391,"RandomForestClassifier(ccp_alpha=0.0006898332694780677, criterion='entropy',
+                       max_depth=33, max_leaf_nodes=200, min_samples_leaf=10,
+                       min_samples_split=30, n_estimators=190, random_state=42)"
+8,0.8109068627450979,0.07612223433609057,"RandomForestClassifier(ccp_alpha=3.458614853079343e-09, criterion='entropy',
+                       max_depth=135, max_leaf_nodes=123, min_samples_leaf=10,
+                       min_samples_split=30, n_estimators=1000,
+                       random_state=42)"
+9,0.8072406045751634,0.0469718678236461,"RandomForestClassifier(ccp_alpha=3.525336006195892e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, min_samples_split=30,
+                       n_estimators=10, random_state=42)"
+10,0.802986111111111,0.08184078535141269,"RandomForestClassifier(ccp_alpha=0.01228324344418245, criterion='entropy',
+                       max_depth=5, max_leaf_nodes=50, min_samples_leaf=10,
+                       min_samples_split=14, n_estimators=1000,
+                       random_state=42)"
+11,0.7999795751633987,0.08080980449794221,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=5,
+                       max_leaf_nodes=123, min_samples_leaf=4,
+                       min_samples_split=17, n_estimators=1000,
+                       random_state=42)"
+12,0.7984436274509803,0.09456662546336447,"RandomForestClassifier(ccp_alpha=1.1927413043337852e-05, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, min_samples_leaf=3,
+                       min_samples_split=25, n_estimators=35, random_state=42)"
+13,0.8029207516339868,0.07172767875540072,"RandomForestClassifier(ccp_alpha=5.976120280626964e-05, criterion='entropy',
+                       max_depth=5, max_leaf_nodes=50, min_samples_split=30,
+                       n_estimators=473, random_state=42)"
+14,0.8052696078431373,0.08605215151426547,"RandomForestClassifier(ccp_alpha=3.074365717136821e-05, max_depth=5,
+                       max_leaf_nodes=200, min_samples_split=30,
+                       n_estimators=1000, random_state=42)"
+15,0.8160661764705882,0.07780696790922836,"RandomForestClassifier(ccp_alpha=0.0001666392740734975, criterion='entropy',
+                       max_depth=5, max_leaf_nodes=140, min_samples_leaf=3,
+                       min_samples_split=28, n_estimators=1000,
+                       random_state=42)"
+16,0.8332352941176471,0.06796644001775626,"RandomForestClassifier(ccp_alpha=0.0036346984896317553, criterion='entropy',
+                       max_depth=5, max_leaf_nodes=200, min_samples_leaf=10,
+                       min_samples_split=30, n_estimators=520, random_state=42)"
+17,0.8313848039215685,0.0744740923236156,"RandomForestClassifier(ccp_alpha=0.002623736135885613, criterion='entropy',
+                       max_depth=5, max_leaf_nodes=200, min_samples_split=30,
+                       n_estimators=1000, random_state=42)"
+18,0.8334395424836603,0.072537343850117,"RandomForestClassifier(ccp_alpha=3.4560346296313093e-09, max_depth=5,
+                       max_leaf_nodes=50, min_samples_leaf=3,
+                       min_samples_split=30, n_estimators=1000,
+                       random_state=42)"
+19,0.8400285947712419,0.07436885670211356,"RandomForestClassifier(ccp_alpha=0.00012179940162745452, criterion='entropy',
+                       max_depth=10, max_leaf_nodes=200, min_samples_leaf=2,
+                       min_samples_split=11, n_estimators=132, random_state=42)"
+20,0.8414950980392157,0.06423361864819548,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=5,
+                       max_leaf_nodes=130, min_samples_leaf=4,
+                       min_samples_split=21, n_estimators=96, random_state=42)"
+21,0.8426674836601308,0.06503891786700873,"RandomForestClassifier(ccp_alpha=1.2156430641645817e-08, criterion='entropy',
+                       max_depth=43, max_leaf_nodes=92, min_samples_split=30,
+                       n_estimators=98, random_state=42)"
+22,0.8399468954248366,0.06508254866638741,"RandomForestClassifier(ccp_alpha=0.0024833752122391454, criterion='entropy',
+                       max_depth=99, max_leaf_nodes=132, min_samples_leaf=2,
+                       min_samples_split=7, n_estimators=184, random_state=42)"
+23,0.8413766339869282,0.0566922898325399,"RandomForestClassifier(ccp_alpha=1.4638394171453617e-09, criterion='entropy',
+                       max_depth=125, max_leaf_nodes=165, min_samples_leaf=3,
+                       min_samples_split=18, n_estimators=718, random_state=42)"
+24,0.8460049019607843,0.058121037340400236,"RandomForestClassifier(ccp_alpha=2.98835581115637e-06, criterion='entropy',
+                       max_depth=16, max_leaf_nodes=195, min_samples_leaf=2,
+                       min_samples_split=29, n_estimators=310, random_state=42)"
+25,0.8537418300653595,0.04918676293387475,"RandomForestClassifier(ccp_alpha=0.0009345086206579816, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=87, min_samples_split=17,
+                       n_estimators=63, random_state=42)"
+26,0.8611315359477125,0.05044103107491892,"RandomForestClassifier(ccp_alpha=5.1284535847579386e-09, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, min_samples_split=30,
+                       n_estimators=290, random_state=42)"
+27,0.8635825163398693,0.04856787790921511,"RandomForestClassifier(ccp_alpha=3.998664230971503e-09, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=163, n_estimators=1000,
+                       random_state=42)"
+28,0.8603390522875817,0.05088096781799811,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=5,
+                       max_leaf_nodes=200, min_samples_split=30,
+                       n_estimators=186, random_state=42)"
+29,0.865122549019608,0.049394622836010295,"RandomForestClassifier(ccp_alpha=0.0021518105561944743, max_depth=11,
+                       max_leaf_nodes=57, min_samples_leaf=5,
+                       min_samples_split=29, n_estimators=1000,
+                       random_state=42)"
+30,0.8658986928104575,0.05089014447881801,"RandomForestClassifier(ccp_alpha=1.3077086628192202e-07, max_depth=147,
+                       max_leaf_nodes=103, min_samples_leaf=3,
+                       min_samples_split=16, n_estimators=979, random_state=42)"
+31,0.871875,0.05654368397544366,"RandomForestClassifier(ccp_alpha=1.4664222701750825e-09, criterion='entropy',
+                       max_depth=81, max_leaf_nodes=138, min_samples_split=16,
+                       n_estimators=203, random_state=42)"
+32,0.8664828431372549,0.0550943867619299,"RandomForestClassifier(ccp_alpha=2.9620596726522252e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, min_samples_split=13,
+                       n_estimators=1000, random_state=42)"
+33,0.8658292483660132,0.052406998445618636,"RandomForestClassifier(ccp_alpha=1.1377340275489e-05, criterion='entropy',
+                       max_depth=118, max_leaf_nodes=191, min_samples_split=19,
+                       n_estimators=836, random_state=42)"
+34,0.873688725490196,0.059591506768254254,"RandomForestClassifier(ccp_alpha=1.6764931852524884e-06, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, min_samples_split=17,
+                       n_estimators=85, random_state=42)"
+35,0.8701756535947712,0.061503934463485004,"RandomForestClassifier(ccp_alpha=5.855566759228288e-07, criterion='entropy',
+                       max_depth=27, max_leaf_nodes=50, min_samples_split=8,
+                       n_estimators=792, random_state=42)"
+36,0.874109477124183,0.0601527099288996,"RandomForestClassifier(ccp_alpha=0.00026918228837493545, criterion='entropy',
+                       max_depth=5, max_leaf_nodes=50, n_estimators=1000,
+                       random_state=42)"
+37,0.8840073529411765,0.057147251082039933,"RandomForestClassifier(ccp_alpha=8.110271230407432e-06, criterion='entropy',
+                       max_depth=145, max_leaf_nodes=54, min_samples_split=15,
+                       n_estimators=660, random_state=42)"
+38,0.8812173202614378,0.05591810825801142,"RandomForestClassifier(ccp_alpha=4.274621989005164e-09, criterion='entropy',
+                       max_depth=139, max_leaf_nodes=200, min_samples_leaf=4,
+                       n_estimators=414, random_state=42)"
+39,0.8814093137254903,0.05033071790629714,"RandomForestClassifier(ccp_alpha=0.002567048863054579, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=100, min_samples_split=19,
+                       n_estimators=1000, random_state=42)"
+40,0.8919995915032679,0.025456817012306593,"RandomForestClassifier(ccp_alpha=3.403507697484906e-05, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=85, random_state=42)"
+41,0.87781454248366,0.04541283891523435,"RandomForestClassifier(ccp_alpha=0.0024833752122391454, criterion='entropy',
+                       max_depth=99, max_leaf_nodes=132, min_samples_leaf=2,
+                       min_samples_split=7, n_estimators=184, random_state=42)"
+42,0.8776633986928104,0.0464614234456667,"RandomForestClassifier(ccp_alpha=3.7511217647139485e-10, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=708,
+                       random_state=42)"
+43,0.8723937908496732,0.04168096079944681,"RandomForestClassifier(ccp_alpha=5.308422054567326e-07, criterion='entropy',
+                       max_depth=115, max_leaf_nodes=139, n_estimators=656,
+                       random_state=42)"
+44,0.87921772875817,0.04082873365484287,"RandomForestClassifier(ccp_alpha=0.0012205455369626935, max_depth=150,
+                       max_leaf_nodes=184, n_estimators=163, random_state=42)"
+45,0.8773325163398693,0.04849917238175246,"RandomForestClassifier(ccp_alpha=4.2798368742014764e-07, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=1000,
+                       random_state=42)"
+46,0.8829779411764704,0.04210923350116938,"RandomForestClassifier(ccp_alpha=0.006291958507327273, criterion='entropy',
+                       max_depth=83, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+47,0.8841584967320261,0.034453466816071185,"RandomForestClassifier(ccp_alpha=2.970780709723481e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=202,
+                       random_state=42)"
+48,0.8810580065359476,0.04590343794039324,"RandomForestClassifier(ccp_alpha=0.007784641267011799, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=166, n_estimators=217,
+                       random_state=42)"
+49,0.8838194444444445,0.04127384534451627,"RandomForestClassifier(ccp_alpha=9.97867295913643e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+50,0.8879432189542484,0.047372048824399354,"RandomForestClassifier(ccp_alpha=0.0022740497221211986, criterion='entropy',
+                       max_depth=54, max_leaf_nodes=145, n_estimators=1000,
+                       random_state=42)"
+51,0.8854493464052288,0.04650226681595853,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=150,
+                       max_leaf_nodes=50, n_estimators=607, random_state=42)"
+52,0.8829207516339869,0.04338863937349398,"RandomForestClassifier(ccp_alpha=2.9565783794537024e-05, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=1000,
+                       random_state=42)"
+53,0.8806066176470587,0.04321314421770086,"RandomForestClassifier(ccp_alpha=1.0333250920518635e-05, max_depth=79,
+                       max_leaf_nodes=60, n_estimators=1000, random_state=42)"
+54,0.8817340686274509,0.04748777061809701,"RandomForestClassifier(ccp_alpha=4.1316849994468366e-10, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=160, n_estimators=1000,
+                       random_state=42)"
+55,0.8917973856209149,0.04024032781496991,"RandomForestClassifier(ccp_alpha=0.002978057180317194, criterion='entropy',
+                       max_depth=58, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+56,0.8918300653594772,0.045073148827739516,"RandomForestClassifier(ccp_alpha=0.005438303681512095, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=271,
+                       random_state=42)"
+57,0.8923651960784312,0.04146344637155522,"RandomForestClassifier(ccp_alpha=2.745098001732361e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=180, n_estimators=1000,
+                       random_state=42)"
+58,0.8909150326797384,0.039376318618424465,"RandomForestClassifier(ccp_alpha=0.0024833752122391454, criterion='entropy',
+                       max_depth=99, max_leaf_nodes=132, min_samples_leaf=2,
+                       min_samples_split=7, n_estimators=184, random_state=42)"
+59,0.8854901960784314,0.04733271852540086,"RandomForestClassifier(ccp_alpha=0.00309638845168944, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+60,0.8892156862745099,0.049211837140838086,"RandomForestClassifier(ccp_alpha=0.00019359355046340683, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=215, random_state=42)"
+61,0.8881658496732026,0.040737050836922924,"RandomForestClassifier(ccp_alpha=7.85516709886938e-10, max_depth=150,
+                       max_leaf_nodes=130, min_samples_split=5,
+                       n_estimators=1000, random_state=42)"
+62,0.8865727124183007,0.044028330560059746,"RandomForestClassifier(ccp_alpha=3.999378243391647e-08, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+63,0.88953022875817,0.0436260053446444,"RandomForestClassifier(ccp_alpha=4.167638224947703e-08, max_depth=9,
+                       max_leaf_nodes=50, n_estimators=280, random_state=42)"
+64,0.8882883986928105,0.04027300914545215,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=21, max_leaf_nodes=156,
+                       n_estimators=235, random_state=42)"
+65,0.8912704248366012,0.03383250750132106,"RandomForestClassifier(ccp_alpha=0.003031242242758198, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+66,0.8927124183006535,0.03709106777550915,"RandomForestClassifier(ccp_alpha=0.00712281196327622, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=212, random_state=42)"
+67,0.8906781045751634,0.04850346046950872,"RandomForestClassifier(ccp_alpha=0.006722745941651621, criterion='entropy',
+                       max_depth=51, max_leaf_nodes=163, n_estimators=760,
+                       random_state=42)"
+68,0.8975040849673203,0.0401751352346183,"RandomForestClassifier(ccp_alpha=1.006696344655158e-06, max_depth=150,
+                       max_leaf_nodes=129, min_samples_split=10,
+                       n_estimators=177, random_state=42)"
+69,0.8993872549019608,0.034103997446425456,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=50,
+                       min_samples_split=15, n_estimators=220, random_state=42)"
+70,0.895874183006536,0.03636192306571113,"RandomForestClassifier(ccp_alpha=0.00010774609828386842, criterion='entropy',
+                       max_depth=131, max_leaf_nodes=108, min_samples_split=9,
+                       n_estimators=929, random_state=42)"
+71,0.8936928104575165,0.03806514148064777,"RandomForestClassifier(ccp_alpha=4.0629366703536954e-07, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=1000,
+                       random_state=42)"
+72,0.901188725490196,0.03580780600113521,"RandomForestClassifier(ccp_alpha=9.533815508593516e-06, max_depth=150,
+                       max_leaf_nodes=100, n_estimators=226, random_state=42)"
+73,0.8980351307189542,0.03528959954476595,"RandomForestClassifier(ccp_alpha=5.717741080331619e-09, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=51, n_estimators=905,
+                       random_state=42)"
+74,0.8999795751633988,0.030098760230394303,"RandomForestClassifier(ccp_alpha=1.84226570043096e-09, criterion='entropy',
+                       max_depth=85, max_leaf_nodes=200, n_estimators=689,
+                       random_state=42)"
+75,0.8948937908496731,0.02781622795406269,"RandomForestClassifier(ccp_alpha=0.0024833752122391454, criterion='entropy',
+                       max_depth=99, max_leaf_nodes=132, min_samples_leaf=2,
+                       min_samples_split=7, n_estimators=184, random_state=42)"
+76,0.8939705882352941,0.03196713981578661,"RandomForestClassifier(ccp_alpha=1.058475657211151e-07, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=298,
+                       random_state=42)"
+77,0.8945792483660131,0.02823159926171495,"RandomForestClassifier(ccp_alpha=2.9963321490881765e-07, criterion='entropy',
+                       max_depth=52, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+78,0.8979003267973855,0.029263630451039704,"RandomForestClassifier(ccp_alpha=0.0026887159524926134, criterion='entropy',
+                       max_depth=31, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+79,0.8962132352941177,0.03819932446717614,"RandomForestClassifier(ccp_alpha=1.6346159572124064e-07, max_depth=150,
+                       max_leaf_nodes=53, n_estimators=477, random_state=42)"
+80,0.8893300653594771,0.028791739913383994,"RandomForestClassifier(ccp_alpha=0.0024833752122391454, criterion='entropy',
+                       max_depth=99, max_leaf_nodes=132, min_samples_leaf=2,
+                       min_samples_split=7, n_estimators=184, random_state=42)"
+81,0.8945731209150326,0.03272165924672892,"RandomForestClassifier(ccp_alpha=8.464622143445139e-08, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=508, random_state=42)"
+82,0.8873611111111112,0.03618314632922154,"RandomForestClassifier(ccp_alpha=0.0024934680538809483, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+83,0.8949714052287581,0.04469782908350097,"RandomForestClassifier(ccp_alpha=6.360493668445781e-10, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=160, random_state=42)"
+84,0.8895057189542485,0.037055406849693606,"RandomForestClassifier(ccp_alpha=7.756877589127299e-10, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=302, random_state=42)"
+85,0.8881249999999999,0.037163038409662556,"RandomForestClassifier(ccp_alpha=2.2039505770980622e-05, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+86,0.8868504901960783,0.03528546652665901,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=124, max_leaf_nodes=77,
+                       min_samples_split=5, n_estimators=1000, random_state=42)"
+87,0.9023631535947713,0.033356671114729355,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=50,
+                       n_estimators=137, random_state=42)"
+88,0.8958251633986929,0.03964642004559228,"RandomForestClassifier(ccp_alpha=0.0001331475346853786, max_depth=149,
+                       max_leaf_nodes=144, min_samples_split=4,
+                       n_estimators=183, random_state=42)"
+89,0.8876062091503268,0.035545075957370546,"RandomForestClassifier(ccp_alpha=2.8370613189231367e-06, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, min_samples_split=10,
+                       n_estimators=1000, random_state=42)"
+90,0.8940706699346406,0.03190249119640276,"RandomForestClassifier(ccp_alpha=7.025259747499022e-06, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=280, random_state=42)"
+91,0.8924673202614379,0.02293016420049944,"RandomForestClassifier(ccp_alpha=4.76509680377478e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+92,0.9023325163398693,0.03717821399280813,"RandomForestClassifier(ccp_alpha=0.004492163379038725, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=119, random_state=42)"
+93,0.8892892156862745,0.03626043877858104,"RandomForestClassifier(ccp_alpha=8.236431872291372e-05, criterion='entropy',
+                       max_depth=11, max_leaf_nodes=194, n_estimators=1000,
+                       random_state=42)"
+94,0.886078431372549,0.0379968930775802,"RandomForestClassifier(ccp_alpha=0.0030984904236787784, criterion='entropy',
+                       max_depth=86, max_leaf_nodes=97, n_estimators=1000,
+                       random_state=42)"
+95,0.888921568627451,0.02810023336275382,"RandomForestClassifier(ccp_alpha=1.8572088054505823e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, min_samples_split=6,
+                       n_estimators=1000, random_state=42)"
+96,0.890735294117647,0.03791138779262013,"RandomForestClassifier(ccp_alpha=4.687860021637409e-06, max_depth=26,
+                       max_leaf_nodes=152, min_samples_split=5,
+                       n_estimators=1000, random_state=42)"
+97,0.8833006535947712,0.031064132845425592,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=150,
+                       max_leaf_nodes=134, n_estimators=1000, random_state=42)"
+98,0.9002879901960783,0.034163019659449984,"RandomForestClassifier(ccp_alpha=8.176444453983148e-06, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=161, random_state=42)"
+99,0.888813316993464,0.03828307066047631,"RandomForestClassifier(ccp_alpha=4.389985290206454e-09, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=337,
+                       random_state=42)"
+100,0.8920424836601306,0.029972041880048757,"RandomForestClassifier(ccp_alpha=1.1708127548885541e-08, max_depth=131,
+                       max_leaf_nodes=199, min_samples_split=8,
+                       n_estimators=1000, random_state=42)"
+101,0.8853962418300654,0.04233359167030587,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=128,
+                       max_leaf_nodes=150, min_samples_split=14,
+                       n_estimators=171, random_state=42)"
+102,0.8983496732026144,0.031242524416628364,"RandomForestClassifier(ccp_alpha=0.0022115909603863974, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=479, random_state=42)"
+103,0.8917401960784315,0.033147473801738915,"RandomForestClassifier(ccp_alpha=0.0042460975096585436, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=1000,
+                       random_state=42)"
+104,0.8850367647058823,0.03210166857799239,"RandomForestClassifier(ccp_alpha=1.3279469672844405e-06, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+105,0.8894015522875817,0.028928794957897977,"RandomForestClassifier(ccp_alpha=3.3354422554043176e-08, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=429, random_state=42)"
+106,0.8861151960784313,0.033643263360989085,"RandomForestClassifier(ccp_alpha=5.783372153899012e-05, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=113, min_samples_split=6,
+                       n_estimators=1000, random_state=42)"
+107,0.8882393790849672,0.03804798494063576,"RandomForestClassifier(ccp_alpha=0.008366045522503529, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+108,0.8898611111111112,0.033492297052171875,"RandomForestClassifier(ccp_alpha=0.0031227493787813502, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+109,0.8994485294117647,0.03496264919972409,"RandomForestClassifier(ccp_alpha=0.011935150301227606, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=93, n_estimators=145,
+                       random_state=42)"
+110,0.8919199346405229,0.029456063453282156,"RandomForestClassifier(ccp_alpha=8.963450012363812e-07, max_depth=11,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+111,0.8954125816993465,0.03620426153886419,"RandomForestClassifier(ccp_alpha=0.0024833752122391454, criterion='entropy',
+                       max_depth=99, max_leaf_nodes=132, min_samples_leaf=2,
+                       min_samples_split=7, n_estimators=184, random_state=42)"
+112,0.8904370915032681,0.036375749549787346,"RandomForestClassifier(ccp_alpha=0.002414840793782044, criterion='entropy',
+                       max_depth=58, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+113,0.8892136437908498,0.03576449713791677,"RandomForestClassifier(ccp_alpha=6.446957216677163e-06, max_depth=144,
+                       max_leaf_nodes=190, n_estimators=1000, random_state=42)"
+114,0.8950285947712417,0.032824963521603225,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+115,0.895484068627451,0.035441674669719835,"RandomForestClassifier(ccp_alpha=5.599604077450637e-09, max_depth=150,
+                       max_leaf_nodes=133, n_estimators=272, random_state=42)"
+116,0.884983660130719,0.03758849753801847,"RandomForestClassifier(ccp_alpha=0.0016116951602887185, criterion='entropy',
+                       max_depth=36, max_leaf_nodes=50, n_estimators=1000,
+                       random_state=42)"
+117,0.8961519607843138,0.04361227429348721,"RandomForestClassifier(ccp_alpha=0.000503485369896901, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=406, random_state=42)"
+118,0.8946813725490197,0.03779910917223041,"RandomForestClassifier(ccp_alpha=2.1983364543731985e-07, max_depth=150,
+                       max_leaf_nodes=200, min_samples_split=17,
+                       n_estimators=222, random_state=42)"
+119,0.8870016339869281,0.03822128133397749,"RandomForestClassifier(ccp_alpha=0.0032592705734918867, criterion='entropy',
+                       max_depth=108, max_leaf_nodes=159, min_samples_split=6,
+                       n_estimators=1000, random_state=42)"
+120,0.8852287581699347,0.03509786805742032,"RandomForestClassifier(ccp_alpha=0.0018269829970429185, criterion='entropy',
+                       max_depth=37, max_leaf_nodes=83, n_estimators=1000,
+                       random_state=42)"
+121,0.8902205882352942,0.03535498129785479,"RandomForestClassifier(ccp_alpha=1.0604251409008997e-09, max_depth=150,
+                       max_leaf_nodes=190, min_samples_split=13,
+                       n_estimators=1000, random_state=42)"
+122,0.8905147058823528,0.029457241756639305,"RandomForestClassifier(ccp_alpha=1.3896583388695624e-07, max_depth=150,
+                       max_leaf_nodes=52, n_estimators=1000, random_state=42)"
+123,0.8928063725490196,0.027649565037771384,"RandomForestClassifier(ccp_alpha=4.481776753644219e-10, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=193,
+                       random_state=42)"
+124,0.8923018790849675,0.0363852609952168,"RandomForestClassifier(ccp_alpha=0.00014614642276334085, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=146,
+                       random_state=42)"
+125,0.8980433006535948,0.03305708637322314,"RandomForestClassifier(ccp_alpha=3.957345356424276e-10, max_depth=141,
+                       max_leaf_nodes=120, n_estimators=1000, random_state=42)"
+126,0.8866135620915033,0.039082024948608865,"RandomForestClassifier(ccp_alpha=0.001362203609400956, max_depth=82,
+                       max_leaf_nodes=108, n_estimators=788, random_state=42)"
+127,0.896515522875817,0.03718992051172206,"RandomForestClassifier(ccp_alpha=1.9936114978908143e-06, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=271,
+                       random_state=42)"
+128,0.8883782679738562,0.03229440536479952,"RandomForestClassifier(ccp_alpha=1.881386167107775e-09, max_depth=131,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+129,0.887124183006536,0.03659130221129126,"RandomForestClassifier(ccp_alpha=8.414503205088484e-07, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=344, random_state=42)"
+130,0.8874346405228758,0.041758242311835676,"RandomForestClassifier(ccp_alpha=2.2415192870873747e-06, criterion='entropy',
+                       max_depth=53, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+131,0.8900980392156862,0.029670882235223718,"RandomForestClassifier(ccp_alpha=4.686797121856574e-10, max_depth=108,
+                       max_leaf_nodes=200, n_estimators=301, random_state=42)"
+132,0.901825980392157,0.024647692535070855,"RandomForestClassifier(ccp_alpha=7.414167491306831e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=224, random_state=42)"
+133,0.8902328431372549,0.026168853196025903,"RandomForestClassifier(ccp_alpha=0.0001331475346853786, max_depth=149,
+                       max_leaf_nodes=144, min_samples_split=4,
+                       n_estimators=183, random_state=42)"
+134,0.8921323529411765,0.03424048848715562,"RandomForestClassifier(ccp_alpha=1.2936647287289953e-10, criterion='entropy',
+                       max_depth=97, max_leaf_nodes=150, n_estimators=1000,
+                       random_state=42)"
+135,0.8929963235294119,0.03211101902928456,"RandomForestClassifier(ccp_alpha=0.0022716413128845967, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=475,
+                       random_state=42)"
+136,0.8969975490196077,0.028241877345909612,"RandomForestClassifier(ccp_alpha=2.143995031644094e-05, max_depth=149,
+                       max_leaf_nodes=188, min_samples_leaf=2,
+                       min_samples_split=6, n_estimators=262, random_state=42)"
+137,0.8984722222222222,0.03154937021744679,"RandomForestClassifier(ccp_alpha=0.00024387999571664194, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=1000,
+                       random_state=42)"
+138,0.9010273692810458,0.03181930229571793,"RandomForestClassifier(ccp_alpha=1.8968051331288499e-06, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+139,0.9048263888888888,0.030174423503477137,"RandomForestClassifier(ccp_alpha=2.5494079219089662e-06, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=261,
+                       random_state=42)"
+140,0.9023059640522876,0.030773230999197352,"RandomForestClassifier(ccp_alpha=5.44923102647192e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=271, random_state=42)"
+141,0.9045138888888887,0.03264643549204735,"RandomForestClassifier(ccp_alpha=3.0563473315102924e-07, max_depth=39,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+142,0.8956944444444446,0.0309033390844487,"RandomForestClassifier(ccp_alpha=7.363180217082663e-05, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=159, n_estimators=1000,
+                       random_state=42)"
+143,0.9004493464052287,0.02566959140736486,"RandomForestClassifier(ccp_alpha=0.0012757229520658413, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=428,
+                       random_state=42)"
+144,0.8951756535947712,0.026833941382610575,"RandomForestClassifier(ccp_alpha=7.090843947587117e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+145,0.9026776960784313,0.028045272332255282,"RandomForestClassifier(ccp_alpha=1.031673720563697e-07, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=318,
+                       random_state=42)"
+146,0.9011805555555554,0.030260352957459755,"RandomForestClassifier(ccp_alpha=6.021535438170402e-07, max_depth=125,
+                       max_leaf_nodes=199, min_samples_split=10,
+                       n_estimators=1000, random_state=42)"
+147,0.9037540849673202,0.03417272056569384,"RandomForestClassifier(ccp_alpha=1.2181037564811955e-06, max_depth=55,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+148,0.9025245098039216,0.032162106560396905,"RandomForestClassifier(ccp_alpha=0.003221737685374108, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+149,0.9014174836601306,0.03353596483926241,"RandomForestClassifier(ccp_alpha=1.09591437391338e-06, max_depth=36,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+150,0.9069281045751634,0.03560946029170688,"RandomForestClassifier(ccp_alpha=1.266563631643495e-08, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=192, random_state=42)"
+151,0.895390114379085,0.03272850483418916,"RandomForestClassifier(ccp_alpha=5.334645990039434e-07, max_depth=150,
+                       max_leaf_nodes=187, n_estimators=1000, random_state=42)"
+152,0.8964787581699346,0.03443476647935822,"RandomForestClassifier(ccp_alpha=7.514610974603328e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+153,0.8998978758169935,0.03024923817147313,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=50,
+                       n_estimators=1000, random_state=42)"
+154,0.8998039215686274,0.03165210667114866,"RandomForestClassifier(ccp_alpha=1.4979242237855296e-07, max_depth=129,
+                       max_leaf_nodes=90, min_samples_split=4, n_estimators=839,
+                       random_state=42)"
+155,0.9048978758169934,0.01929603357388789,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=138,
+                       min_samples_split=14, n_estimators=212, random_state=42)"
+156,0.8994444444444445,0.025446036251748252,"RandomForestClassifier(ccp_alpha=1.5564071974565817e-06, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+157,0.9052042483660131,0.025851299908327963,"RandomForestClassifier(ccp_alpha=2.9032974676960092e-05, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=143, random_state=42)"
+158,0.9044035947712418,0.023739964626749196,"RandomForestClassifier(ccp_alpha=7.200257528432956e-09, max_depth=99,
+                       max_leaf_nodes=200, n_estimators=370, random_state=42)"
+159,0.9059109477124181,0.021425722131768216,"RandomForestClassifier(ccp_alpha=1.1241555624626839e-08, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+160,0.899109477124183,0.02618614955936355,"RandomForestClassifier(ccp_alpha=1.03024648086722e-08, max_depth=91,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+161,0.9009885620915032,0.028602180412656532,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=117, max_leaf_nodes=200,
+                       min_samples_split=7, n_estimators=1000, random_state=42)"
+162,0.9003390522875817,0.036109327590667664,"RandomForestClassifier(ccp_alpha=3.172825141301968e-10, max_depth=150,
+                       max_leaf_nodes=112, min_samples_split=7,
+                       n_estimators=157, random_state=42)"
+163,0.9048570261437909,0.028381066805816615,"RandomForestClassifier(ccp_alpha=8.090351234245513e-05, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+164,0.9018218954248365,0.032756192227503526,"RandomForestClassifier(ccp_alpha=9.668923786649843e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=131,
+                       random_state=42)"
+165,0.9016299019607843,0.022165022516253217,"RandomForestClassifier(ccp_alpha=1.3533289261059332e-09, max_depth=18,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+166,0.8992156862745098,0.02794997090509443,"RandomForestClassifier(ccp_alpha=0.005306519694514513, criterion='entropy',
+                       max_depth=118, max_leaf_nodes=131, n_estimators=699,
+                       random_state=42)"
+167,0.908063725490196,0.03988776040321386,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=77, max_leaf_nodes=200,
+                       min_samples_split=3, n_estimators=98, random_state=42)"
+168,0.902908496732026,0.02913908180921013,"RandomForestClassifier(ccp_alpha=0.00013803395052730335, max_depth=39,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+169,0.9044485294117648,0.03281188279924177,"RandomForestClassifier(ccp_alpha=5.810501952226543e-09, max_depth=150,
+                       max_leaf_nodes=85, n_estimators=1000, random_state=42)"
+170,0.9014072712418301,0.027971198065370625,"RandomForestClassifier(ccp_alpha=2.989563297191605e-08, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=221, random_state=42)"
+171,0.9061846405228758,0.027935951523856348,"RandomForestClassifier(ccp_alpha=3.438549677005456e-05, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=228, random_state=42)"
+172,0.9064950980392157,0.0314157359083618,"RandomForestClassifier(ccp_alpha=1.1767875023017712e-06, max_depth=128,
+                       max_leaf_nodes=51, min_samples_split=7, n_estimators=68,
+                       random_state=42)"
+173,0.9046241830065359,0.028300285662297593,"RandomForestClassifier(ccp_alpha=4.518279100508777e-07, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=441, random_state=42)"
+174,0.9011049836601307,0.03193006605444336,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=50,
+                       n_estimators=1000, random_state=42)"
+175,0.9056862745098039,0.023349901891057564,"RandomForestClassifier(ccp_alpha=0.000202045535367305, max_depth=67,
+                       max_leaf_nodes=200, min_samples_split=7,
+                       n_estimators=1000, random_state=42)"
+176,0.890968137254902,0.039553270427205856,"RandomForestClassifier(ccp_alpha=0.004015379473230746, max_depth=150,
+                       max_leaf_nodes=50, min_samples_split=9,
+                       n_estimators=1000, random_state=42)"
+177,0.8990032679738562,0.03289704709596007,"RandomForestClassifier(ccp_alpha=2.7369925390800152e-08, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+178,0.9016013071895423,0.02813009343667289,"RandomForestClassifier(ccp_alpha=7.637800654533866e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=235,
+                       random_state=42)"
+179,0.8994199346405228,0.030927777223556135,"RandomForestClassifier(ccp_alpha=0.00010681810974954588, max_depth=66,
+                       max_leaf_nodes=177, n_estimators=740, random_state=42)"
+180,0.9066544117647058,0.031257023485581965,"RandomForestClassifier(ccp_alpha=0.0022544639649684523, max_depth=150,
+                       max_leaf_nodes=156, n_estimators=1000, random_state=42)"
+181,0.8945915032679738,0.03170517431771683,"RandomForestClassifier(ccp_alpha=0.00020519723953888635, max_depth=150,
+                       max_leaf_nodes=179, n_estimators=321, random_state=42)"
+182,0.8914460784313725,0.03272507170249246,"RandomForestClassifier(ccp_alpha=4.189872382023034e-05, max_depth=139,
+                       max_leaf_nodes=195, n_estimators=1000, random_state=42)"
+183,0.8918382352941177,0.032609083137481766,"RandomForestClassifier(ccp_alpha=5.399287649910649e-07, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+184,0.8983210784313724,0.03107130683037822,"RandomForestClassifier(ccp_alpha=0.004019799140723739, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+185,0.8974632352941176,0.02783593039429616,"RandomForestClassifier(ccp_alpha=1.5442257033843613e-05, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+186,0.8962704248366012,0.03267382529221446,"RandomForestClassifier(ccp_alpha=1.9412291965327942e-07, max_depth=150,
+                       max_leaf_nodes=138, n_estimators=1000, random_state=42)"
+187,0.8991544117647058,0.03037868034588809,"RandomForestClassifier(ccp_alpha=2.8678681312398445e-05, max_depth=9,
+                       max_leaf_nodes=199, n_estimators=1000, random_state=42)"
+188,0.9098223039215686,0.034299583786892296,"RandomForestClassifier(ccp_alpha=3.6471804155787966e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=180, random_state=42)"
+189,0.8956495098039217,0.035270144600163,"RandomForestClassifier(ccp_alpha=0.007826929359767225, max_depth=27,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+190,0.8962785947712419,0.03153852161301852,"RandomForestClassifier(ccp_alpha=0.00373108723121436, max_depth=150,
+                       max_leaf_nodes=187, n_estimators=1000, random_state=42)"
+191,0.8998039215686273,0.042014887976211925,"RandomForestClassifier(ccp_alpha=0.0006840477869751952, max_depth=114,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+192,0.8968402777777778,0.034384752355939324,"RandomForestClassifier(ccp_alpha=1.174071629235227e-09, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=1000,
+                       random_state=42)"
+193,0.9111519607843137,0.029321131688762648,"RandomForestClassifier(ccp_alpha=2.0443256522113907e-08, max_depth=25,
+                       max_leaf_nodes=173, n_estimators=112, random_state=42)"
+194,0.8998488562091502,0.02790550011129355,"RandomForestClassifier(ccp_alpha=9.141195929041893e-07, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=324, random_state=42)"
+195,0.8979575163398694,0.02678586303761263,"RandomForestClassifier(ccp_alpha=0.000374782071789583, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=84, random_state=42)"
+196,0.8983782679738562,0.0393330303281201,"RandomForestClassifier(ccp_alpha=2.3999019172589254e-06, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=205, random_state=42)"
+197,0.8971017156862745,0.032014872260473344,"RandomForestClassifier(ccp_alpha=1.3743390700566471e-08, max_depth=134,
+                       max_leaf_nodes=124, n_estimators=1000, random_state=42)"
+198,0.9020138888888889,0.032853988316144715,"RandomForestClassifier(ccp_alpha=4.042198500298501e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=320, random_state=42)"
+199,0.9004983660130719,0.032129865304395794,"RandomForestClassifier(ccp_alpha=2.5086857603385474e-08, max_depth=150,
+                       max_leaf_nodes=106, n_estimators=184, random_state=42)"
+200,0.8997222222222222,0.02007907336170681,"RandomForestClassifier(ccp_alpha=0.00694650280949371, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=55, min_samples_split=12,
+                       n_estimators=84, random_state=42)"
+201,0.9023325163398692,0.03312778263802256,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=50,
+                       min_samples_split=14, n_estimators=121, random_state=42)"
+202,0.8870629084967321,0.04040193369822552,"RandomForestClassifier(ccp_alpha=7.470045880175029e-10, max_depth=150,
+                       max_leaf_nodes=50, min_samples_split=30,
+                       n_estimators=1000, random_state=42)"
+203,0.8945424836601308,0.029275112601723066,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=200,
+                       n_estimators=1000, random_state=42)"
+204,0.8907761437908498,0.03388649573047683,"RandomForestClassifier(ccp_alpha=7.48956569239167e-08, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=587, random_state=42)"
+205,0.8938031045751634,0.027909470422488227,"RandomForestClassifier(ccp_alpha=3.5155612581545205e-10, max_depth=150,
+                       max_leaf_nodes=50, min_samples_split=10,
+                       n_estimators=655, random_state=42)"
+206,0.902050653594771,0.02186108570790621,"RandomForestClassifier(ccp_alpha=2.674917928523788e-08, max_depth=150,
+                       max_leaf_nodes=53, n_estimators=1000, random_state=42)"
+207,0.8987888071895422,0.030465865997753083,"RandomForestClassifier(ccp_alpha=2.205182144471712e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=120, random_state=42)"
+208,0.891047794117647,0.03662799341770262,"RandomForestClassifier(ccp_alpha=3.403838915859666e-10, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=154, random_state=42)"
+209,0.9011478758169934,0.027791173540917,"RandomForestClassifier(ccp_alpha=1.5099497948012291e-06, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=200, n_estimators=493,
+                       random_state=42)"
+210,0.8916258169934641,0.0336031954307078,"RandomForestClassifier(ccp_alpha=7.488259989527208e-08, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=120, random_state=42)"
+211,0.8926102941176468,0.03489520755185348,"RandomForestClassifier(ccp_alpha=1e-10, criterion='entropy', max_depth=150,
+                       max_leaf_nodes=50, n_estimators=773, random_state=42)"
+212,0.8938562091503268,0.02773686914622128,"RandomForestClassifier(ccp_alpha=9.104296407507816e-06, max_depth=147,
+                       max_leaf_nodes=199, min_samples_split=7,
+                       n_estimators=200, random_state=42)"
+213,0.8951470588235294,0.034295925977901584,"RandomForestClassifier(ccp_alpha=0.0002888886052536118, max_depth=28,
+                       max_leaf_nodes=50, min_samples_split=11,
+                       n_estimators=872, random_state=42)"
+214,0.8918259803921569,0.029307369933229025,"RandomForestClassifier(ccp_alpha=1.0817118958477092e-05, max_depth=150,
+                       max_leaf_nodes=150, min_samples_split=11,
+                       n_estimators=1000, random_state=42)"
+215,0.8900531045751634,0.027553710197465355,"RandomForestClassifier(ccp_alpha=0.0031637573895782842, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+216,0.8904084967320263,0.0430286801748732,"RandomForestClassifier(ccp_alpha=8.512529032371756e-05, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=238, random_state=42)"
+217,0.8908864379084965,0.029143740932685628,"RandomForestClassifier(ccp_alpha=0.0002713134694337766, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, min_samples_split=6,
+                       n_estimators=1000, random_state=42)"
+218,0.898639705882353,0.023815506969912865,"RandomForestClassifier(ccp_alpha=9.391184743399757e-09, criterion='entropy',
+                       max_depth=31, max_leaf_nodes=87, n_estimators=336,
+                       random_state=42)"
+219,0.8966768790849672,0.020966900208655104,"RandomForestClassifier(ccp_alpha=8.247093663164517e-07, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=581, random_state=42)"
+220,0.90203227124183,0.019340931775639583,"RandomForestClassifier(ccp_alpha=1.9980883440185286e-05, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=191, random_state=42)"
+221,0.8960212418300653,0.03642706340116933,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=127,
+                       min_samples_split=11, n_estimators=1000,
+                       random_state=42)"
+222,0.8933026960784313,0.03091755552181475,"RandomForestClassifier(ccp_alpha=3.8876097838387427e-07, max_depth=139,
+                       max_leaf_nodes=53, n_estimators=922, random_state=42)"
+223,0.898345588235294,0.029873381653582633,"RandomForestClassifier(ccp_alpha=1.423484255912083e-08, max_depth=78,
+                       max_leaf_nodes=116, min_samples_split=4,
+                       n_estimators=1000, random_state=42)"
+224,0.8922875816993463,0.027274649835811095,"RandomForestClassifier(ccp_alpha=1.002833423873892e-08, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=448, random_state=42)"
+225,0.8995057189542482,0.02701421010019657,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=125, max_leaf_nodes=50,
+                       min_samples_split=12, n_estimators=1000,
+                       random_state=42)"
+226,0.8968749999999999,0.025309405595616893,"RandomForestClassifier(ccp_alpha=0.003730231927731423, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+227,0.8938031045751632,0.03476052313759667,"RandomForestClassifier(ccp_alpha=3.271079662418724e-05, max_depth=150,
+                       max_leaf_nodes=50, min_samples_split=7, n_estimators=352,
+                       random_state=42)"
+228,0.8891176470588235,0.035338491078217384,"RandomForestClassifier(ccp_alpha=0.001647349014607802, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+229,0.8903921568627451,0.03313558602590046,"RandomForestClassifier(ccp_alpha=1.3151494995479723e-08, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=117,
+                       random_state=42)"
+230,0.8941830065359477,0.03268712743266408,"RandomForestClassifier(ccp_alpha=1.1794386476851133e-05, max_depth=150,
+                       max_leaf_nodes=50, min_samples_split=8, n_estimators=482,
+                       random_state=42)"
+231,0.893472222222222,0.024845856602402478,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=200,
+                       n_estimators=1000, random_state=42)"
+232,0.8947671568627451,0.033259985792927604,"RandomForestClassifier(ccp_alpha=8.732487233673976e-10, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=351, random_state=42)"
+233,0.8967933006535947,0.03872993363582582,"RandomForestClassifier(ccp_alpha=1.302123639566614e-09, max_depth=124,
+                       max_leaf_nodes=77, min_samples_split=5,
+                       n_estimators=1000, random_state=42)"
+234,0.899750816993464,0.02994627356276279,"RandomForestClassifier(ccp_alpha=2.884960001246287e-10, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=518, random_state=42)"
+235,0.8999571078431373,0.040028555428555816,"RandomForestClassifier(ccp_alpha=1.8435739685355562e-10, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=220, random_state=42)"
+236,0.8876633986928105,0.023812241244754336,"RandomForestClassifier(ccp_alpha=1.3020748711678e-09, max_depth=124,
+                       max_leaf_nodes=77, min_samples_split=5,
+                       n_estimators=1000, random_state=42)"
+237,0.9044689542483662,0.03616718135338406,"RandomForestClassifier(ccp_alpha=3.6950845563088536e-08, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=144, random_state=42)"
+238,0.8918831699346406,0.0245228726732451,"RandomForestClassifier(ccp_alpha=0.0009284082218979861, max_depth=150,
+                       max_leaf_nodes=200, min_samples_split=6,
+                       n_estimators=962, random_state=42)"
+239,0.888982843137255,0.03810032201435729,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=43, max_leaf_nodes=168,
+                       n_estimators=1000, random_state=42)"
+240,0.8898733660130718,0.03831837157136843,"RandomForestClassifier(ccp_alpha=1.5412265120683003e-06, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=1000, random_state=42)"
+241,0.8974775326797385,0.030745331228938334,"RandomForestClassifier(ccp_alpha=0.00015941142826112275, max_depth=150,
+                       max_leaf_nodes=200, n_estimators=426, random_state=42)"
+242,0.8876307189542484,0.037187334812771485,"RandomForestClassifier(ccp_alpha=0.003516876696949717, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+243,0.8929166666666666,0.03368992787666536,"RandomForestClassifier(ccp_alpha=3.7761881621919604e-09, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=339, random_state=42)"
+244,0.8941462418300652,0.020498934628077572,"RandomForestClassifier(ccp_alpha=8.440900164146393e-05, criterion='entropy',
+                       max_depth=150, max_leaf_nodes=50, n_estimators=223,
+                       random_state=42)"
+245,0.89234477124183,0.021650266678915182,"RandomForestClassifier(ccp_alpha=6.745787313308938e-09, max_depth=150,
+                       max_leaf_nodes=116, min_samples_split=13,
+                       n_estimators=1000, random_state=42)"
+246,0.8971486928104575,0.027183410658888393,"RandomForestClassifier(ccp_alpha=9.289558483304214e-07, max_depth=72,
+                       max_leaf_nodes=50, n_estimators=382, random_state=42)"
+247,0.8918137254901961,0.0367197219349826,"RandomForestClassifier(ccp_alpha=3.162093432945138e-06, max_depth=150,
+                       max_leaf_nodes=50, min_samples_split=12,
+                       n_estimators=879, random_state=42)"
+248,0.8943382352941176,0.029376937895473135,"RandomForestClassifier(ccp_alpha=2.866203230797176e-10, max_depth=148,
+                       max_leaf_nodes=177, n_estimators=1000, random_state=42)"
+249,0.8919812091503267,0.022978455331938256,"RandomForestClassifier(ccp_alpha=2.5693304675198498e-05, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=1000, random_state=42)"
+250,0.8908721405228757,0.027426834500190723,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=149,
+                       n_estimators=482, random_state=42)"
+251,0.8956944444444443,0.03215832088761906,"RandomForestClassifier(ccp_alpha=7.883474754491494e-05, max_depth=150,
+                       max_leaf_nodes=117, n_estimators=1000, random_state=42)"
+252,0.8877328431372549,0.025751499527389424,"RandomForestClassifier(ccp_alpha=1e-10, max_depth=150, max_leaf_nodes=200,
+                       n_estimators=1000, random_state=42)"
+253,0.8913398692810457,0.03512870016239318,"RandomForestClassifier(ccp_alpha=0.0009342972210461053, max_depth=150,
+                       max_leaf_nodes=50, n_estimators=453, random_state=42)"
+254,0.89187295751634,0.018804086632281326,"RandomForestClassifier(ccp_alpha=1.544163798786725e-10, max_depth=117,
+                       max_leaf_nodes=118, n_estimators=924, random_state=42)"
+255,0.8901225490196077,0.023360740583893383,"RandomForestClassifier(ccp_alpha=1.764226247220539e-08, max_depth=73,
+                       max_leaf_nodes=117, min_samples_split=6,
+                       n_estimators=1000, random_state=42)"
+256,0.8926143790849672,0.029823086087010783,"RandomForestClassifier(ccp_alpha=2.5690123479405143e-08, max_depth=69,
+                       max_leaf_nodes=50, min_samples_split=7, n_estimators=773,
+                       random_state=42)"
