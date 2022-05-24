@@ -1,0 +1,38 @@
+================================================================
+Program: CD-HIT, V4.7 (+OpenMP), Sep 06 2018, 09:36:42
+Command: /data5/data/NGS-ann-project/apps/cd-hit/cd-hit -i
+         1593999888.fas.0 -d 0 -o 1593999888.fas.1 -c 0.4 -n 2
+         -G 1 -g 1 -b 20 -l 10 -s 0.0 -aL 0.0 -aS 0.0 -T 4 -M
+         32000
+
+Started: Sun Jul  5 18:45:09 2020
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 298
+longest and shortest : 1305 and 24
+Total letters: 74733
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 4 X 10M = 43M
+Table           : 2 X 0M = 0M
+Miscellaneous   : 0M
+Total           : 43M
+
+Table limit with the given memory limit:
+Max number of representatives: 4000000
+Max number of word counting entries: 3994596805
+
+# comparing sequences from          0  to        298
+---------- new table with      207 representatives
+
+      298  finished        207  clusters
+
+Apprixmated maximum memory consumption: 43M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 1.33
