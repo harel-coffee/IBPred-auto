@@ -1,55 +1,55 @@
 Training	Benchmark	
-RL.DDE	RS.DDE	
-II.DDE	SR.DDE	
-VR.DDE	VR.DDE	
-EC.0	EC.0	
-EC.DDE	CD.9	
-SR.DDE	YD.DDE	
-ID.DDE	RL.DDE	
-YD.DDE	EC.DDE	
-NI.3	II.DDE	
-RS.DDE	DI.6	
-ND.6	ID.DDE	
-DI.6	RV.DDE	
-PP.DDE	CD.3	
-VF.8	PR.DDE	
-QA.3	PP.DDE	
-SD.2	GI.8	
-II.0	ND.6	
-CD.3	CN.7	
-PR.DDE	AH.6	
-RK.5	TR.DDE	
-IN.3	DD.8	
-CN.7	VF.8	
-KF.DDE	GR.DDE	
-AH.6	GM.9	
-GM.9	RI.DDE	
-NL.7	RK.5	
-II.6	FG.3	
-VW.0	SE.DDE	
-CT.2	QA.3	
-CD.9	II.0	
-FM.DDE	KN.DDE	
-RV.DDE	QT.DDE	
-YD.0	NI.DDE	
-IS.4	FM.DDE	
-KN.DDE	MY.5	
-GI.8	GC.6	
-DW.3	SE.0	
-CV.4	DN.6	
-        DE.DDE	
-        CW.1	
-        HI.0	
-        CT.2	
-        TS.DDE	
-        DV.DDE	
-        LD.DDE	
-        SD.2	
-        CI.3	
-        SH.3	
-        RP.DDE	
-        RR.DDE
-        AH.4 
+RL.DDE	        RS.DDE	
+II.DDE	        SR.DDE	
+VR.DDE	        VR.DDE	
+EC.0	        EC.0	
+EC.DDE	        CD.9	
+SR.DDE	        YD.DDE	
+ID.DDE	        RL.DDE	
+YD.DDE	        EC.DDE	
+NI.3	        II.DDE	
+RS.DDE	        DI.6	
+ND.6	        ID.DDE	
+DI.6	        RV.DDE	
+PP.DDE	        CD.3	
+VF.8	        PR.DDE	
+QA.3	        PP.DDE	
+SD.2	        GI.8	
+II.0	        ND.6	
+CD.3	        CN.7	
+PR.DDE	        AH.6	
+RK.5	        TR.DDE	
+IN.3	        DD.8	
+CN.7	        VF.8	
+KF.DDE	        GR.DDE	
+AH.6	        GM.9	
+GM.9	        RI.DDE	
+NL.7	        RK.5	
+II.6	        FG.3	
+VW.0	        SE.DDE	
+CT.2	        QA.3	
+CD.9	        II.0	
+FM.DDE	        KN.DDE	
+RV.DDE	        QT.DDE	
+YD.0	        NI.DDE	
+IS.4	        FM.DDE	
+KN.DDE	        MY.5	
+GI.8	        GC.6	
+DW.3	        SE.0	
+CV.4	        DN.6	
+                DE.DDE	
+                CW.1	
+                HI.0	
+                CT.2	
+                TS.DDE	
+                DV.DDE	
+                LD.DDE	
+                SD.2	
+                CI.3	
+                SH.3	
+                RP.DDE	
+                RR.DDE
+                AH.4 
 
 
 
@@ -59,3 +59,31 @@ CV.4	DN.6
 | Training  | NI(3), IN(3), NL(7), II(6), VM(0), IS(4), DW(3), CV(4)       | KF                                         | YD(0)       |
 | Benchmark | DD(8), FG(3), MY(5), GC(6), DN(6), CW(1), HI(0), CI(3), SH(3) | TR, GR, RI, QT, NI, DE, TS, DV, LD, RP, RR | SE(0)       |
 | Both      | ND(6), DI(6), VF(8), QA(3), SD(2), CT(2), CD(3,9), RK(5), CN(7), AH(6), GM(9), GI(8) | RL, VR, SR, ID, YD, RS, PP, PR, FM, RV, KN | EC(0),II(0) |
+
+
+
+CKSAAP  DDE         CKSAAP  DDE     Intersection
+EC.0    RL.DDE      NI3     RL      II06
+NI.3    II.DDE      ND6     VR      EC0
+ND.6    VR.DDE      DI6     SR      YD0
+DI.6    EC.DDE      VF8     ID
+VF.8    SR.DDE      QA3     RS
+QA.3    ID.DDE      SD2     PP
+SD.2    YD.DDE      CD39    PR
+II.0    RS.DDE      RK5     KF
+CD.3    PP.DDE      IN3     FM
+RK.5    PR.DDE      CN7     RV
+IN.3    KF.DDE      AH6     KN
+CN.7    FM.DDE      GM9
+AH.6    RV.DDE      NL7
+GM.9    KN.DDE      VW0
+NL.7                CT2
+II.6                IS4
+VW.0                GI8
+CT.2                DW3
+CD.9                CV4
+YD.0
+IS.4
+GI.8
+DW.3
+CV.4

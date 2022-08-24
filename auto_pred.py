@@ -30,26 +30,9 @@ roc_file = {
 }
 
 
-def auto_pred(fastas, model='base_bayes_clf_PD', set_num=193):
+def get_features(fastas):
     fastas_name = os.path.basename(fastas)
 
-    if model in clf_models:
-        x = 'clf'
-    elif model in base_bayes_models:
-        x = 'base_bayes'
-    else:
-        x = 'base_grid'
-
-    roc_file_ = roc_file[x]
-    roc_ = pd.read_csv(os.path.join(data_path, roc_file_), index_col=0)
-    name = model.split('_')[-1]
-    # check
-    name = name if name in methods else model.split('_')[0]
-    fpr = np.array(eval(roc_.loc['fpr', name]))
-    tpr = np.array(eval(roc_.loc['tpr', name]))
-    Youden_index = np.argmax(tpr - fpr)
-
-    # get features
     k, delta, nlag, w = 9, 10, 5, 0.5
     pseck = PseCKSAAP(gap=k, delta=delta)
     pseck.fit(fastas)
@@ -91,10 +74,31 @@ def auto_pred(fastas, model='base_bayes_clf_PD', set_num=193):
         index=feature.index,
         columns=F_sig.values,
     )
+    return feature
+
+
+def auto_pred(feature, model='base_bayes_clf_PD', set_num=193):
     PD_columns = pd.read_csv(
         os.path.join(data_path, 'f_score_sig_features_by_methods.csv')
-    )['PD'][:set_num]
+    ).PD.iloc[: int(set_num)]
     feature = feature.loc[:, PD_columns.values]
+
+    if model in clf_models:
+        x = 'clf'
+    elif model in base_bayes_models:
+        x = 'base_bayes'
+    else:
+        x = 'base_grid'
+
+    roc_file_ = roc_file[x]
+    roc_ = pd.read_csv(os.path.join(data_path, roc_file_), index_col=0)
+    name = model.split('_')[-1]
+    # check
+    name = name if name in methods else model.split('_')[0]
+
+    fpr = np.array(eval(roc_.loc['fpr', name]))
+    tpr = np.array(eval(roc_.loc['tpr', name]))
+    Youden_index = np.argmax(tpr - fpr)
 
     model = joblib.load(os.path.join(bin_path, model))
     try:
@@ -109,7 +113,7 @@ def auto_pred(fastas, model='base_bayes_clf_PD', set_num=193):
         result = pd.DataFrame(
             np.c_[pred_label, label_proba],
             index=feature.index,
-            columns=['label(proba_1≥%f)' % threshold, 'proba_0', 'proba_1'],
+            columns=['label(proba_1>=%f)' % threshold, 'proba_0', 'proba_1'],
         )
         return result
     except SystemError:
@@ -124,23 +128,32 @@ if __name__ == "__main__":
     parser.add_argument(
         '--file', required=True, help='input protein sequence fasta file'
     )
-    parser.add_argument("--out", help="the generated descriptor file")
     parser.add_argument(
         "--model",
         default='base_bayes_clf_PD',
         help="the model chosed to identify IBP, default: 'base_bayes_clf_PD'",
     )
+
+    _temp = ""
+    for i, m in enumerate(
+        zip(
+            base_grid_models + base_bayes_models + clf_models,
+            base_grid_d + base_bayes_d + clf_d,
+        )
+    ):
+        _temp += "  %s:%d  " % m
     parser.add_argument(
         "--set_num",
         default=193,
-        help="the number of features as the model required "
-        + "default: 193 (the default model required)"
-        + "(check paper for more info)",
+        help="the number of features as the model required, "
+        + "default: 193 (the default model required).\n"
+        + "models and set_nums: "
+        + _temp,
     )
     parser.add_argument(
         "--out",
-        default='result.csv',
-        help="the filename of output",
+        default='results.csv',
+        help="the filename of output, default: 'results.csv'",
     )
     args = parser.parse_args()
     model = args.model if args.model is not None else 'base_bayes_clf_PD'
@@ -154,6 +167,7 @@ if __name__ == "__main__":
     if int(set_num) not in range(1, 257):
         print('Error: the basic allowed range of set_num is [1, 2, ..., 256]')
         exit()
-    output = args.out if args.out is not None else 'result.csv'
-    result = auto_pred(args.file, model, set_num)
+    output = args.out if args.out is not None else 'results.csv'
+    feature = get_features(args.file)
+    result = auto_pred(feature, model, set_num)
     result.to_csv(output)

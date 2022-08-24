@@ -5,7 +5,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.colors as clr
 import matplotlib.pyplot as plt
-from sklearn.feature_selection import f_classif
+
+# from sklearn.feature_selection import f_classif
 
 
 data_path = os.path.join(os.path.abspath('.'), 'datas')
@@ -580,7 +581,7 @@ def feature_rank():
     )
     ax3_2.spines["polar"].set_visible(False)
     ax3_2.set_ylim(0, 160)
-    ax3_2.legend(['sum of F-scores'], frameon=False, loc=(-0.4, -0.1))
+    ax3_2.legend(['sum of $\it{F}$-scores'], frameon=False, loc=(-0.4, -0.1))
 
     # D
     ax4 = fig.add_subplot(212)
@@ -653,60 +654,62 @@ def cksaap_dde():
         index=DPs,
         columns=['G' + str(i) for i in range(10)] + ['MAX_CKSAAP', 'DDE'],
     )
-    feature_all = pd.read_csv(
-        os.path.join(feature_path, 'feature_all.csv'), index_col=0
-    )
-    pos_num = 114
-    neg_num = 207
-    label = np.array([1] * pos_num + [0] * neg_num)
-    F_SCORE, P_VALUE = f_classif(feature_all, label)
-    F_SCORE = pd.Series(F_SCORE, index=feature_all.columns).sort_values(
-        ascending=False
-    )
-    P_VALUE = pd.Series(P_VALUE, index=feature_all.columns).sort_values(
-        ascending=True
-    )
-    pd.DataFrame(F_SCORE).to_csv(
-        os.path.join(data_path, 'F_SCORE.csv'), header=False
-    )
-    pd.DataFrame(P_VALUE).to_csv(
-        os.path.join(data_path, 'P_VALUE.csv'), header=False
-    )
-    F_CKSAAP_total = F_SCORE[
-        F_SCORE.index.isin(re.findall(re_CKSAAP, str(F_SCORE.index.to_list())))
-    ]
-    F_DDE_total = F_SCORE[
-        F_SCORE.index.isin(re.findall(re_DDE, str(F_SCORE.index.to_list())))
-    ]
-    FSCORE_heatmap = np.zeros((400, 0))
-    for g in range(10):
-        FSCORE_heatmap = np.c_[
-            FSCORE_heatmap,
-            F_CKSAAP_total[
-                F_CKSAAP_total.index.isin(
-                    re.findall(
-                        r'\w+.' + str(g), str(F_CKSAAP_total.index.to_list())
-                    )
-                )
-            ]
-            .sort_index()
-            .values,
-        ]
-    FSCORE_heatmap = np.c_[
-        FSCORE_heatmap,
-        FSCORE_heatmap.max(axis=1),
-        F_DDE_total.sort_index().values,
-    ]
-    FSCORE_heatmap = pd.DataFrame(
-        FSCORE_heatmap,
-        index=DPs,
-        columns=['G' + str(i) for i in range(10)] + ['MAX_CKSAAP', 'DDE'],
-    )
-    fig, axn = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(9, 28))
-    cbar_axes = [
-        fig.add_axes([0.91, 0.521, 0.03, 0.465]),
-        fig.add_axes([0.91, 0.042, 0.03, 0.4645]),
-    ]
+    # feature_all = pd.read_csv(
+    #     os.path.join(feature_path, 'feature_all.csv'), index_col=0
+    # )
+    # pos_num = 114
+    # neg_num = 207
+    # label = np.array([1] * pos_num + [0] * neg_num)
+    # F_SCORE, P_VALUE = f_classif(feature_all, label)
+    # F_SCORE = pd.Series(F_SCORE, index=feature_all.columns).sort_values(
+    #     ascending=False
+    # )
+    # P_VALUE = pd.Series(P_VALUE, index=feature_all.columns).sort_values(
+    #     ascending=True
+    # )
+    # pd.DataFrame(F_SCORE).to_csv(
+    #     os.path.join(data_path, 'F_SCORE.csv'), header=False
+    # )
+    # pd.DataFrame(P_VALUE).to_csv(
+    #     os.path.join(data_path, 'P_VALUE.csv'), header=False
+    # )
+    # F_CKSAAP_total = F_SCORE[
+    #     F_SCORE.index.isin(re.findall(re_CKSAAP, str(F_SCORE.index.to_list())))
+    # ]
+    # F_DDE_total = F_SCORE[
+    #     F_SCORE.index.isin(re.findall(re_DDE, str(F_SCORE.index.to_list())))
+    # ]
+    # FSCORE_heatmap = np.zeros((400, 0))
+    # for g in range(10):
+    #     FSCORE_heatmap = np.c_[
+    #         FSCORE_heatmap,
+    #         F_CKSAAP_total[
+    #             F_CKSAAP_total.index.isin(
+    #                 re.findall(
+    #                     r'\w+.' + str(g), str(F_CKSAAP_total.index.to_list())
+    #                 )
+    #             )
+    #         ]
+    #         .sort_index()
+    #         .values,
+    #     ]
+    # FSCORE_heatmap = np.c_[
+    #     FSCORE_heatmap,
+    #     FSCORE_heatmap.max(axis=1),
+    #     F_DDE_total.sort_index().values,
+    # ]
+    # FSCORE_heatmap = pd.DataFrame(
+    #     FSCORE_heatmap,
+    #     index=DPs,
+    #     columns=['G' + str(i) for i in range(10)] + ['MAX_CKSAAP', 'DDE'],
+    # )
+    # fig, axn = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(9, 28))
+    fig, axn = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(9, 14))
+    # cbar_axes = [
+    #     fig.add_axes([0.91, 0.521, 0.03, 0.465]),
+    #     fig.add_axes([0.91, 0.042, 0.03, 0.4645]),
+    # ]
+    cbar_axes = fig.add_axes([0.91, 0.084, 0.03, 0.888])
     # from scipy.stats import f
     # f(2-1, 256-2).ppf(1-0.001), f(1, 254).ppf(1-0.01),f(1, 254).ppf(1-0.05)
     # (11.083846195746949, 6.735703930741392, 3.878329734167353)
@@ -714,27 +717,31 @@ def cksaap_dde():
     # (11.030940082481472, 6.714985325381564, 3.870774457589267)
     hmap = dict(
         zip(
-            range(4),
+            # range(4),
+            range(2),
             [
                 fscore_heatmap,
-                FSCORE_heatmap,
+                # FSCORE_heatmap,
                 fscore_heatmap[fscore_heatmap >= 11.084].fillna(0),
-                FSCORE_heatmap[FSCORE_heatmap >= 11.031].fillna(0),
+                # FSCORE_heatmap[FSCORE_heatmap >= 11.031].fillna(0),
             ],
         )
     )
-    vmin = min(fscore_heatmap.min().min(), FSCORE_heatmap.min().min())
-    vmax = max(fscore_heatmap.max().max(), FSCORE_heatmap.max().max())
+    # vmin = min(fscore_heatmap.min().min(), FSCORE_heatmap.min().min())
+    # vmax = max(fscore_heatmap.max().max(), FSCORE_heatmap.max().max())
+    vmin = fscore_heatmap.min().min()
+    vmax = fscore_heatmap.max().max()
     titles = dict(
         zip(
-            range(4),
+            # range(4),
+            range(2),
             [
                 r'$\it{Traning}$ $\it{Dataset}$',
-                r'$\it{Benchmark}$ $\it{Dataset}$',
+                # r'$\it{Benchmark}$ $\it{Dataset}$',
                 r'$\it{Traning}$ $\it{Dataset}$ '
                 + r'$(\it{F}_{1,254} ≥ \it{F}_{0.001} = 11.084)$',
-                r'$\it{Benchmark}$ $\it{Dataset}$ '
-                + r'$(\it{F}_{1,319} ≥ \it{F}_{0.001} = 11.031)$',
+                # r'$\it{Benchmark}$ $\it{Dataset}$ '
+                # + r'$(\it{F}_{1,319} ≥ \it{F}_{0.001} = 11.031)$',
             ],
         )
     )
@@ -746,52 +753,54 @@ def cksaap_dde():
         sns.heatmap(
             hmap[i],
             ax=ax,
-            cbar=([1, 0] * 2)[i],
+            # cbar=([1, 0] * 2)[i],
+            cbar=[1, 0][i],
             cmap=cmap,
             vmin=vmin,
             vmax=vmax,
-            cbar_ax=cbar_axes[i // 2] if i % 2 == 0 else None,
+            # cbar_ax=cbar_axes[i // 2] if i % 2 == 0 else None,
+            cbar_ax=cbar_axes,
         )
         ax.set_title(titles[i])
 
     fig.tight_layout(rect=[0, 0, 0.9, 1])
     plt.savefig(os.path.join(data_path, 'cksaap_dde_heatmap.jpg'), dpi=600)
 
-    fig_sec, axn_sec = plt.subplots(
-        2, 2, sharex=True, sharey=True, figsize=(9, 28)
-    )
-    cbar_axes = [
-        fig_sec.add_axes([0.91, 0.521, 0.03, 0.465]),
-        fig_sec.add_axes([0.91, 0.042, 0.03, 0.4645]),
-    ]
-    DPs_sec = [aa2 + aa1 for aa1 in AA for aa2 in AA]
-    fscore_heatmap = fscore_heatmap.loc[DPs_sec, :]
-    FSCORE_heatmap = FSCORE_heatmap.loc[DPs_sec, :]
-    hmap = dict(
-        zip(
-            range(4),
-            [
-                fscore_heatmap,
-                FSCORE_heatmap,
-                fscore_heatmap[fscore_heatmap >= 11.084].fillna(0),
-                FSCORE_heatmap[FSCORE_heatmap >= 11.031].fillna(0),
-            ],
-        )
-    )
-    for i, ax in enumerate(axn_sec.flat):
-        sns.heatmap(
-            hmap[i],
-            ax=ax,
-            cbar=([1, 0] * 2)[i],
-            cmap=cmap,
-            vmin=vmin,
-            vmax=vmax,
-            cbar_ax=cbar_axes[i // 2] if i % 2 == 0 else None,
-        )
-        ax.set_title(titles[i])
+    # fig_sec, axn_sec = plt.subplots(
+    #     2, 2, sharex=True, sharey=True, figsize=(9, 28)
+    # )
+    # cbar_axes = [
+    #     fig_sec.add_axes([0.91, 0.521, 0.03, 0.465]),
+    #     fig_sec.add_axes([0.91, 0.042, 0.03, 0.4645]),
+    # ]
+    # DPs_sec = [aa2 + aa1 for aa1 in AA for aa2 in AA]
+    # fscore_heatmap = fscore_heatmap.loc[DPs_sec, :]
+    # FSCORE_heatmap = FSCORE_heatmap.loc[DPs_sec, :]
+    # hmap = dict(
+    #     zip(
+    #         range(4),
+    #         [
+    #             fscore_heatmap,
+    #             FSCORE_heatmap,
+    #             fscore_heatmap[fscore_heatmap >= 11.084].fillna(0),
+    #             FSCORE_heatmap[FSCORE_heatmap >= 11.031].fillna(0),
+    #         ],
+    #     )
+    # )
+    # for i, ax in enumerate(axn_sec.flat):
+    #     sns.heatmap(
+    #         hmap[i],
+    #         ax=ax,
+    #         cbar=([1, 0] * 2)[i],
+    #         cmap=cmap,
+    #         vmin=vmin,
+    #         vmax=vmax,
+    #         cbar_ax=cbar_axes[i // 2] if i % 2 == 0 else None,
+    #     )
+    #     ax.set_title(titles[i])
 
-    fig_sec.tight_layout(rect=[0, 0, 0.9, 1])
-    plt.savefig(os.path.join(data_path, 'cksaap_dde_heatmap_sec.jpg'), dpi=600)
+    # fig_sec.tight_layout(rect=[0, 0, 0.9, 1])
+    # plt.savefig(os.path.join(data_path, 'cksaap_dde_heatmap_sec.jpg'), dpi=600)
 
 
 cksaap_dde()
