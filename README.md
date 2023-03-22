@@ -4,6 +4,17 @@ Ion binding proteins (IBPs) and non-IBPs are stored in `./datas/data.fasta` with
 
 ## Environment build
 
+### solution (new)
+
+Create `ibpred` env, execute following commands in `base` env of Anaconda:
+
+```bash
+conda env create -n ibpred -f requirements.yaml
+conda activate ibpred
+```
+-----------
+### previous solution
+
 Anaconda (Anaconda3-2021.11-Linux-x86_64) virtual environment called `ibpred` on Linux system was used.
 
 To build `ibpred`, please execute following commands in `base`  environment of Anaconda:
